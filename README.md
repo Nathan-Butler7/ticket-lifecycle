@@ -166,7 +166,7 @@ Set Properties to the ticket
 
 Ticket 2
 
-Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
+1. Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
 
 ![Screenshot 2025-05-15 104349](https://github.com/user-attachments/assets/d5efb419-e1ce-4014-a853-b0e06c6881d3)
 
@@ -175,16 +175,58 @@ We will use the "Karen" account. Fill in the following sections:
 - Full name: Karen
 - Phone Number: 5038884757
 - Help Topic: 
-- Issue Summary: " ".
+- Issue Summary: "accounting department needs adobe upgrade, broken".
 - Details: " ".
 - Click 'Create Ticket'.
 
 
 
+2. Open a new tab in the browser (http://localhost/osTicket/scp/login.php), login to the osTicket Helpdesk login page as Helpdesk Agent "John".
+- Username: john
+- Password: Password1
+- Click 'log In'
+
+
+
+3. Click on the new ticket that was just created. Read the issue summary and description and observe the properties as a Help Desk Agent (John).
+
+Set Properties to the ticket
+- SLA Plan: Sev-B (4 hours, 24/7)
+
+
+
+- Help Topic:
+
+
+
+- Assigned to:
+
+
+
+- If you scroll down and observe you can see updates in Ticket Thread.
+
+
+
+4. Continue as John... 
+
+5.
+
+6.
+
+7.
+
+8. Now that everything is fixed we can now finish up the Ticket.
+- Change Ticket Status to "Resolved" and click close.
+
+
+
+- You can check Closed Tickets by logging in back as 'Adminuser'.
+
+
 
 Ticket 3
 
-Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
+1. Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
 
 ![Screenshot 2025-05-15 104349](https://github.com/user-attachments/assets/750156d6-057c-433e-b84d-2dac5f9e194b)
 
@@ -193,9 +235,55 @@ We will use the "Karen" account. Fill in the following sections:
 - Full name: Karen
 - Phone Number: 5038884757
 - Help Topic: 
-- Issue Summary: " ".
+- Issue Summary: "CFO’s laptop will no longer turn on".
 - Details: " ".
 - Click 'Create Ticket'.
+
+
+
+2. Open a new tab in the browser (http://localhost/osTicket/scp/login.php), login to the osTicket Helpdesk login page as Helpdesk Agent "John".
+- Username: john
+- Password: Password1
+- Click 'log In'
+
+
+
+3. Click on the new ticket that was just created. Read the issue summary and description and observe the properties as a Help Desk Agent (John).
+
+
+
+Set Properties to the ticket
+- SLA Plan: Sev-B (4 hours, 24/7)
+
+
+
+- Help Topic:
+
+
+
+- Assigned to:
+
+
+
+- If you scroll down and observe you can see updates in Ticket Thread.
+
+
+
+4. 
+
+5.
+
+6. 
+
+7. 
+
+8. Now that everything is fixed we can now finish up the Ticket.
+- Change Ticket Status to "Resolved" and click close.
+
+
+
+- You can check Closed Tickets by logging in back as 'Adminuser'.
+
 
 
 ------------------------------------------------------
