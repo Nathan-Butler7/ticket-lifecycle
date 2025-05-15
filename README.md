@@ -25,13 +25,47 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+In this lab, we will be creating tickets as end users.
+Observing all the ticket properties and responding to them as help desk professionals to completion.
+
+Before continuing with the tickets we need to change the SysAdmins Department to a Top Level Department and Archive the Maintenance Department.
+- Open a browser and copy/paste the URL (http://localhost/osTicket/scp/login.php).
+
+![image](https://github.com/user-attachments/assets/ac0799d2-8602-4dd8-9601-9835cd34b607)
+
+- Admin Panel -> Agents -> Departments.
+- Click on 'Maintenance'.
+
+![image](https://github.com/user-attachments/assets/6d6ad0f8-7f9f-49e8-9d16-d25af3518f41)
+
+- Under Status change it to 'Archived'.
+- Click 'Save Changes'.
+- Logout
+
+![image](https://github.com/user-attachments/assets/5f1dfe48-42fb-4eb0-a3dc-f3965a62052f)
+
 Ticket 1
 
+1. Open a browser and copy/paste the URL (http://localhost/osTicket) and click 'Open a New Ticket' at the top of the bar.
 
+![image](https://github.com/user-attachments/assets/879bfdbf-00c5-4ab9-ab71-2ec5f623b2a1)
+
+We will use the "Karen" account. Fill in the following sections:
+- Email Address: karen@lognpacific.com
+- Full name: Karen
+- Phone Number: 5038884757
+- Help Topic: Report a Problem
+- Issue Summary: "entire mobile/online banking system is down".
+- Details: "My employees are reporting that users are no longer able to access the online banking portal. The ones who can occasionally access it, cannot log in".
+- Click 'Create Ticket'.
+
+![image](https://github.com/user-attachments/assets/c253883f-1547-4b77-aae4-bf131da36d68)
+
+2. g
 
 Ticket 2
 
-
+Back to the End User osTicket URL 
 
 Ticket 3
 
@@ -46,15 +80,11 @@ http://localhost/osTicket/scp/login.php
 End Users osTicket URL:
 http://localhost/osTicket 
 
-In this lab, we will be creating tickets as end users
-Observing all the ticket properties and responding to them as help desk professionals
+
 
 - Change the SysAdmins Department to a Top Level Department
 - DELETE the Maintenance Department (not archive)
 
-
-As an end-user, create the following ticket
-entire mobile/online banking system is down
 
 As a Help Desk Agent (john), observe the ticket’s properties
 	- Priority
