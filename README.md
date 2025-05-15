@@ -227,7 +227,7 @@ Post another reply in the Ticket Thread:
 
 ![image](https://github.com/user-attachments/assets/3ec39683-40f9-4549-8172-2c5b330ed092)
 
-7. Now that everything is fixed we can now finish up the Ticket.
+6. Now that everything is fixed we can now finish up the Ticket.
 - Change Ticket Status to "Resolved".
 - "Restart fixed for both users".
 - Click 'Close'.
@@ -250,60 +250,69 @@ We will use the "Karen" account. Fill in the following sections:
 - Email Address: karen@lognpacific.com
 - Full name: Karen
 - Phone Number: 5038884757
-- Help Topic: 
+- Help Topic: Report a problem / Personal Computer Issues
 - Issue Summary: "CFO’s laptop will no longer turn on".
-- Details: " ".
+- Details: "Laptop won't power on, despite of pressing the power button."
 - Click 'Create Ticket'.
 
+![image](https://github.com/user-attachments/assets/6c6b0043-4871-451e-a12f-81c72ca57d33)
 
+![image](https://github.com/user-attachments/assets/73e92871-5ae5-4d3b-9f0d-d096a01a1050)
 
 2. Open a new tab in the browser (http://localhost/osTicket/scp/login.php), login to the osTicket Helpdesk login page as Helpdesk Agent "John".
 - Username: john
 - Password: Password1
 - Click 'log In'
 
-
+![Screenshot 2025-05-15 233109](https://github.com/user-attachments/assets/17aaebc8-bce8-4696-ae36-cb36be483706)
 
 3. Click on the new ticket that was just created. Read the issue summary and description and observe the properties as a Help Desk Agent (John).
 
-
+![image](https://github.com/user-attachments/assets/60f4ebc9-73fa-4986-9fa3-5b37514a9190)
 
 Set Properties to the ticket
+- Priority: High (Because this is the CFO it is a high priority customer)
+
+![image](https://github.com/user-attachments/assets/148f4d75-2b38-45f0-a1db-ce063fa238b2)
+
 - SLA Plan: Sev-B (4 hours, 24/7)
+- (Optional) "may re-classify after getting more info."
 
+![image](https://github.com/user-attachments/assets/e6416c91-618d-46ff-bf01-f65b0dd74e93)
 
+- Assigned to: John Doe
 
-- Help Topic:
-
-
-
-- Assigned to:
-
-
+![image](https://github.com/user-attachments/assets/299215ab-1a9a-4197-b381-af99b32fb9c8)
 
 - If you scroll down and observe you can see updates in Ticket Thread.
 
+![image](https://github.com/user-attachments/assets/c76e85c1-e1bc-4a5a-a39b-5edf26b9ed1d)
 
 
-4. 
+4. Navigate to the 'Post Reply' section. Respond to the ticket with a possible explanation of the issue and begin investigating to confirm whether this is the actual cause. My reply will be:
+- "CFO's laptop was not charging due to broken charger, brought new charger and is now successfully charging."
+- Click 'Post Reply', refresh the ticket and you should see that it has been updated in the ticket history.
 
-5.
+![image](https://github.com/user-attachments/assets/1490500e-cfab-4d57-b4c2-b7a2fda6d6d9)
 
-6. 
+![image](https://github.com/user-attachments/assets/d9b2aa5f-8821-4681-bfc7-314e4979dc69)
 
-7. 
+5. Now that everything is fixed we can now finish up the Ticket.
+- Change Ticket Status to "Resolved".
+- "Charger was broken, because of this, battery was dead and unable to turn on".
+- Click 'Close'.
 
-8. Now that everything is fixed we can now finish up the Ticket.
-- Change Ticket Status to "Resolved" and click close.
+![image](https://github.com/user-attachments/assets/110774e1-8c45-42af-b3f0-25b5081c8d3a)
 
-
+![image](https://github.com/user-attachments/assets/b4ba061d-6799-4e31-8c79-2f2448bdb03c)
 
 - You can check Closed Tickets by logging in back as 'Adminuser'.
 
+![image](https://github.com/user-attachments/assets/58280cc0-c552-4089-ab28-7a731f68767d)
 
 
-------------------------------------------------------
-------------------------------------------------------
+--------
+
 
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
@@ -311,21 +320,6 @@ http://localhost/osTicket/scp/login.php
 End Users osTicket URL:
 http://localhost/osTicket 
 
-
-As an end-user, create the following ticket
-CFO’s laptop will no longer turn on
-
-As a Help Desk Agent (john), observe the ticket’s properties
-	- Priority
-	- Department
-	- SLA
-	- Assigned To
-
-Set Properties to the ticket
-- Sev-B (4 hours, 24/7)
-- Support
-
-Work the ticket to completion as john
 
 --------------------------------------------------
 
