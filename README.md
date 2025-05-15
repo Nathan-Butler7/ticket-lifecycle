@@ -30,6 +30,8 @@ Observing all the ticket properties and responding to them as help desk professi
 
 Before continuing with the tickets we need to change the SysAdmins Department to a Top Level Department and Archive the Maintenance Department.
 - Open a browser and copy/paste the URL (http://localhost/osTicket/scp/login.php).
+- Username: adminuser
+- Password: Password1
 
 ![image](https://github.com/user-attachments/assets/ac0799d2-8602-4dd8-9601-9835cd34b607)
 
@@ -61,14 +63,41 @@ We will use the "Karen" account. Fill in the following sections:
 
 ![image](https://github.com/user-attachments/assets/c253883f-1547-4b77-aae4-bf131da36d68)
 
-2. g
+2. Open a new tab in the browser, login to the osTicket Helpdesk login page as Helpdesk Agent "John". As a Help Desk Agent (john), observe the ticket’s properties.
+- Username: john
+- Password: Password1
+- Login
+
+
+
 
 Ticket 2
 
-Back to the End User osTicket URL 
+Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
+
+We will use the "Karen" account. Fill in the following sections:
+- Email Address: karen@lognpacific.com
+- Full name: Karen
+- Phone Number: 5038884757
+- Help Topic: Report a Problem
+- Issue Summary: "entire mobile/online banking system is down".
+- Details: "My employees are reporting that users are no longer able to access the online banking portal. The ones who can occasionally access it, cannot log in".
+- Click 'Create Ticket'.
+
+
 
 Ticket 3
 
+Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
+
+We will use the "Karen" account. Fill in the following sections:
+- Email Address: karen@lognpacific.com
+- Full name: Karen
+- Phone Number: 5038884757
+- Help Topic: Report a Problem
+- Issue Summary: "entire mobile/online banking system is down".
+- Details: "My employees are reporting that users are no longer able to access the online banking portal. The ones who can occasionally access it, cannot log in".
+- Click 'Create Ticket'.
 
 
 ------------------------------------------------------
@@ -153,4 +182,4 @@ Obviously there is much more to this product that covered here
 Encourage the use and exploration of the email feature
 Do this lab a few more times, enough times where you’re able to implement it with this simple checklist. This will build your intuition.
 Talk about Technical skill pillar
-Re-touch on technical ability and re-doing the lab several
+Re-touch on technical ability and re-doing the lab several times
