@@ -174,55 +174,71 @@ We will use the "Karen" account. Fill in the following sections:
 - Email Address: karen@lognpacific.com
 - Full name: Karen
 - Phone Number: 5038884757
-- Help Topic: 
+- Help Topic: General Inquiry / Other
 - Issue Summary: "accounting department needs adobe upgrade, broken".
-- Details: " ".
+- Details: "It looks like many people in the account department can't use their adobe software".
 - Click 'Create Ticket'.
 
+![image](https://github.com/user-attachments/assets/503f6312-3387-464f-be6b-e0a094a2331f)
 
+![image](https://github.com/user-attachments/assets/bf9db5b4-b3d2-4b7d-b9b1-191d4542cb3d)
 
 2. Open a new tab in the browser (http://localhost/osTicket/scp/login.php), login to the osTicket Helpdesk login page as Helpdesk Agent "John".
 - Username: john
 - Password: Password1
 - Click 'log In'
 
-
+![image](https://github.com/user-attachments/assets/103e57bd-752e-46e6-8a4d-eb4901ba0267)
 
 3. Click on the new ticket that was just created. Read the issue summary and description and observe the properties as a Help Desk Agent (John).
+- When reviewing the issue, the title and explanation seem hard to understand. It may not be necessary to upgrade the Adobe software—it simply might not be usable for another reason. This calls for further investigation.
+In this mock scenario, I respond to Ken by asking: "What exactly do you mean by 'many people in the accounting department can't use their Adobe software'?"
+Ken clarifies that "only two people in the accounts department are unable to use Adobe Reader." This clarification helps narrow down the issue, allowing us to identify the specific scope of the problem and move on to the next step.
+
+![image](https://github.com/user-attachments/assets/47bf94e7-15d2-4e1f-aa45-cf1f44b03a77)
 
 Set Properties to the ticket
-- SLA Plan: Sev-B (4 hours, 24/7)
+- SLA Plan: Sev-C (8 hours, [Business Hours])
 
+![image](https://github.com/user-attachments/assets/8c7a3af1-0679-4ef9-8f45-2ecd62de2b7b)
 
+- Assigned to: John Doe
 
-- Help Topic:
-
-
-
-- Assigned to:
-
-
+![image](https://github.com/user-attachments/assets/4a202de4-dd71-4143-8788-5a60fcde264c)
 
 - If you scroll down and observe you can see updates in Ticket Thread.
 
+![image](https://github.com/user-attachments/assets/855d4b6a-9183-4848-8b3b-3e13e04f50eb)
 
+4. Navigate to the 'Post Reply' section. Respond to the ticket with a possible explanation of the issue and begin investigating to confirm whether this is the actual cause. My reply will be:
+- "Customer states only 2 people in the accounting department are unable to open and use Adobe reader. I have asked the customer to conduct restarts, he will call back after lunch."
+- Click 'Post Reply', refresh the ticket and you should see that it has been updated in the ticket history.
 
-4. Continue as John... 
+![image](https://github.com/user-attachments/assets/8fd13da5-1b7b-4bef-92d3-fe869affd56b)
 
-5.
+![image](https://github.com/user-attachments/assets/4f38eb52-5ca3-4c89-911b-d8b9a37eb276)
 
-6.
+5. Let’s assume lunch is over and the customer has responded, confirming that a restart resolved the issue and everything is now working correctly and there's no problems.
 
-7.
+Post another reply in the Ticket Thread:
+- "Customer states that restart fixed issue, closing out ticket".
 
-8. Now that everything is fixed we can now finish up the Ticket.
-- Change Ticket Status to "Resolved" and click close.
+![image](https://github.com/user-attachments/assets/3c33f497-6e67-4666-9138-368740852da7)
 
+![image](https://github.com/user-attachments/assets/3ec39683-40f9-4549-8172-2c5b330ed092)
 
+7. Now that everything is fixed we can now finish up the Ticket.
+- Change Ticket Status to "Resolved".
+- "Restart fixed for both users".
+- Click 'Close'.
+
+![image](https://github.com/user-attachments/assets/961d11d5-d333-43e6-a9cf-f168faeff5d4)
+
+![image](https://github.com/user-attachments/assets/1f53468b-c8bf-4924-b995-ae5e3741c772)
 
 - You can check Closed Tickets by logging in back as 'Adminuser'.
 
-
+![image](https://github.com/user-attachments/assets/610767d3-f4fe-4a77-86ad-8f3dc988df2a)
 
 Ticket 3
 
@@ -294,22 +310,6 @@ http://localhost/osTicket/scp/login.php
 
 End Users osTicket URL:
 http://localhost/osTicket 
-
-As an end-user, create the following ticket
-accounting department needs adobe upgrade, broken
-
-As a Help Desk Agent (john), observe the ticket’s properties
-	- Priority
-	- Department
-	- SLA
-	- Assigned To
-
-Set Properties to the ticket
-- Sev-B (4 hours, 24/7)
-- Support
-
-Work the ticket to completion as john
-
 
 
 As an end-user, create the following ticket
