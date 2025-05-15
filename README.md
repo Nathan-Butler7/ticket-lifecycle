@@ -25,6 +25,21 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+Ticket 1
+
+
+
+Ticket 2
+
+
+
+Ticket 3
+
+
+
+------------------------------------------------------
+------------------------------------------------------
+
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
 
