@@ -207,24 +207,6 @@ http://localhost/osTicket/scp/login.php
 End Users osTicket URL:
 http://localhost/osTicket 
 
-
-
-As a Help Desk Agent (john), observe the ticket’s properties
-	- Priority
-	- Department
-	- SLA
-	- Assigned To
-
-Set Properties to the ticket
-- Sev-A (1 hour, 24/7)
-- Online Banking Department
-
-Attempt to observe the ticket again as “john”. Can you view or change?
-
-Work the ticket to completion as jane
-
-
-
 As an end-user, create the following ticket
 accounting department needs adobe upgrade, broken
 
