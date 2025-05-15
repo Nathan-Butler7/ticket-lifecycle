@@ -28,23 +28,26 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 In this lab, we will be creating tickets as end users.
 Observing all the ticket properties and responding to them as help desk professionals to completion.
 
-Before continuing with the tickets we need to change the SysAdmins Department to a Top Level Department and Archive the Maintenance Department.
+Before continuing with the tickets we need to change the SysAdmins Department to a Top Level Department and delete the Maintenance Department.
 - Open a browser and copy/paste the URL (http://localhost/osTicket/scp/login.php).
 - Username: adminuser
 - Password: Password1
+- Click 'log In'
 
 ![image](https://github.com/user-attachments/assets/ac0799d2-8602-4dd8-9601-9835cd34b607)
 
 - Admin Panel -> Agents -> Departments.
-- Click on 'Maintenance'.
+- Tick the boc for 'Maintentance'.
+- Click on 'More' and click 'Delete'.
+- Click 'Yes, Do it!'.
 
-![image](https://github.com/user-attachments/assets/6d6ad0f8-7f9f-49e8-9d16-d25af3518f41)
+![image](https://github.com/user-attachments/assets/403f50d4-e9ca-4d88-9e24-b04f1c06a8ba)
 
-- Under Status change it to 'Archived'.
-- Click 'Save Changes'.
-- Logout
+![image](https://github.com/user-attachments/assets/bd641449-0b66-453a-b193-a7730dbbfebd)
 
-![image](https://github.com/user-attachments/assets/5f1dfe48-42fb-4eb0-a3dc-f3965a62052f)
+- Click 'Log Out'.
+
+![image](https://github.com/user-attachments/assets/5faf4e49-77d5-40cd-9045-aa3e39225ecf)
 
 Ticket 1
 
@@ -66,8 +69,9 @@ We will use the "Karen" account. Fill in the following sections:
 2. Open a new tab in the browser, login to the osTicket Helpdesk login page as Helpdesk Agent "John". As a Help Desk Agent (john), observe the ticket’s properties.
 - Username: john
 - Password: Password1
-- Login
+- Click 'log In'
 
+![image](https://github.com/user-attachments/assets/bb64c87d-103a-4fea-addd-3ac2c2375007)
 
 
 
