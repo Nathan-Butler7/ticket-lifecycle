@@ -70,7 +70,7 @@ In the admin portal and click Agents > Teams > choose "Online Banking".
 ![image](https://github.com/user-attachments/assets/c04d3fd3-fe5b-4a86-b004-1ef9cd5c8047)
 
 
-Ticket 1
+<b> Ticket 1 </b>
 
 1. Open a browser and copy/paste the URL (http://localhost/osTicket) and click 'Open a New Ticket' at the top of the bar.
 
@@ -164,7 +164,7 @@ Set Properties to the ticket
 
 ![image](https://github.com/user-attachments/assets/75429cb1-b025-44de-98a1-b7ee1d25b2a6)
 
-Ticket 2
+<b> Ticket 2 </b>
 
 1. Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
 
@@ -240,7 +240,7 @@ Post another reply in the Ticket Thread:
 
 ![image](https://github.com/user-attachments/assets/610767d3-f4fe-4a77-86ad-8f3dc988df2a)
 
-Ticket 3
+<b> Ticket 3 </b>
 
 1. Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
 
@@ -267,6 +267,7 @@ We will use the "Karen" account. Fill in the following sections:
 ![Screenshot 2025-05-15 233109](https://github.com/user-attachments/assets/17aaebc8-bce8-4696-ae36-cb36be483706)
 
 3. Click on the new ticket that was just created. Read the issue summary and description and observe the properties as a Help Desk Agent (John).
+-	As we are dealing with the CFO in this mock scenario. I would want to reach out to Karen because she was making the request on the CFO behalf. I go observe the CFO’s computer and observe that it was the charger not working. 
 
 ![image](https://github.com/user-attachments/assets/60f4ebc9-73fa-4986-9fa3-5b37514a9190)
 
@@ -310,9 +311,7 @@ Set Properties to the ticket
 
 ![image](https://github.com/user-attachments/assets/58280cc0-c552-4089-ab28-7a731f68767d)
 
-
 --------
-
 
 Admin/Analyst Login Page:
 http://localhost/osTicket/scp/login.php 
@@ -320,24 +319,10 @@ http://localhost/osTicket/scp/login.php
 End Users osTicket URL:
 http://localhost/osTicket 
 
-
---------------------------------------------------
-
-Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
-Switch to admin panel and assign yourself View-access to Sys Admins
-Switch to agent panel and observe the escalated ticket
-Observe that you can no longer make changes to it
-
-Solve all of the tickets
-Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+--------
 
 Explain ticket intake IRL:
 Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
 A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
 
-Finishing up and additional practice
-Obviously there is much more to this product that covered here
-Encourage the use and exploration of the email feature
-Do this lab a few more times, enough times where you’re able to implement it with this simple checklist. This will build your intuition.
-Talk about Technical skill pillar
-Re-touch on technical ability and re-doing the lab several times
+
