@@ -37,7 +37,7 @@ Before continuing with the tickets we need to change the SysAdmins Department to
 ![image](https://github.com/user-attachments/assets/ac0799d2-8602-4dd8-9601-9835cd34b607)
 
 - Admin Panel -> Agents -> Departments.
-- Tick the box for 'Maintentance'.
+- Tick the box for 'Maintenance'.
 - Click on 'More' and click 'Delete'.
 - Click 'Yes, Do it!'.
 
@@ -47,7 +47,7 @@ Before continuing with the tickets we need to change the SysAdmins Department to
 
 We also need to assign our agents to a 'Team' (level 1 Support) - (Online Banking)
 
-In the admin portal and click Agents > Teams > choose "Online Banking".
+In the admin portal click Agents > Teams > choose "Online Banking".
 
 ![Screenshot 2025-05-15 140031](https://github.com/user-attachments/assets/b0678c84-6740-43b4-81ef-24cda460c364)
 
@@ -72,7 +72,7 @@ In the admin portal and click Agents > Teams > choose "Online Banking".
 
 <b> Ticket 1 </b>
 
-1. Open a browser and copy/paste the URL (http://localhost/osTicket) and click 'Open a New Ticket' at the top of the bar.
+1. Open a browser copy/paste the URL (http://localhost/osTicket) and click 'Open a New Ticket' at the top of the bar.
 
 ![image](https://github.com/user-attachments/assets/879bfdbf-00c5-4ab9-ab71-2ec5f623b2a1)
 
@@ -89,7 +89,7 @@ We will use the "Karen" account. Fill in the following sections:
 
 ![image](https://github.com/user-attachments/assets/9b784421-9e37-4267-a664-c34e4485bb80)
 
-2. Open a new tab in the browser, login to the osTicket Helpdesk login page as Helpdesk Agent "John".
+2. Open a new tab in the browser, and log in to the osTicket Helpdesk login page as Helpdesk Agent "John".
 - Username: john
 - Password: Password1
 - Click 'log In'
@@ -106,7 +106,7 @@ Set Properties to the ticket
 
 ![image](https://github.com/user-attachments/assets/3644cbd3-1b7b-4833-a674-c33fecde8852)
   
-- Help Topic: Report a Problem / Business Critical Outage. (It can be important to organise the topic it's more relevant to).
+- Help Topic: Report a Problem / Business Critical Outage. (It can be important to organize the topic it's more relevant to).
 - (Optional) "No customers able to access online banking".
 
 ![image](https://github.com/user-attachments/assets/bb72c8ef-9da8-4140-9ac1-b9c86eb0bfbb)
@@ -127,7 +127,7 @@ Set Properties to the ticket
 
 ![image](https://github.com/user-attachments/assets/df69d39e-bb33-41ac-978f-03a5ed848866)
 
-- In the 'Tickets' section and locate the ticket listed under 'Open'. Click on the ticket to view its details, then proceed to resolve it while logged in as the user 'Jane'. 
+- In the 'Tickets' section locate the ticket listed under 'Open'. Click on the ticket to view its details, then proceed to resolve it while logged in as the user 'Jane'. 
 
 ![image](https://github.com/user-attachments/assets/134e5552-b09d-48dd-b052-9382d1147b28)
 
@@ -166,7 +166,7 @@ Set Properties to the ticket
 
 <b> Ticket 2 </b>
 
-1. Back to the End User osTicket URL (http://localhost/osTicket), click 'Open a New Ticket' at the top of the bar.
+1. Back to the End User osTicket URL (http://localhost/osTicket), and click 'Open a New Ticket' at the top of the bar.
 
 ![Screenshot 2025-05-15 104349](https://github.com/user-attachments/assets/d5efb419-e1ce-4014-a853-b0e06c6881d3)
 
@@ -218,7 +218,7 @@ Set Properties to the ticket
 
 ![image](https://github.com/user-attachments/assets/4f38eb52-5ca3-4c89-911b-d8b9a37eb276)
 
-5. Let’s assume lunch is over and the customer has responded, confirming that a restart resolved the issue and everything is now working correctly and there's no problems.
+5. Let’s assume lunch is over and the customer has responded, confirming that a restart resolved the issue everything is now working correctly and there are no problems.
 
 Post another reply in the Ticket Thread:
 - "Customer states that restart fixed issue, closing out ticket".
@@ -272,7 +272,7 @@ We will use the "Karen" account. Fill in the following sections:
 ![image](https://github.com/user-attachments/assets/60f4ebc9-73fa-4986-9fa3-5b37514a9190)
 
 Set Properties to the ticket
-- Priority: High (Because this is the CFO it is a high priority customer)
+- Priority: High (Because this is the CFO it is a high-priority customer)
 
 ![image](https://github.com/user-attachments/assets/148f4d75-2b38-45f0-a1db-ce063fa238b2)
 
